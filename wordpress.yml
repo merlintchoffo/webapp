@@ -9,4 +9,4 @@
     - name: create www-data
       user: name=www-data state=present
   roles:
-    - { role: }
+    - { role: ansible-role-containerized-wordpress }
